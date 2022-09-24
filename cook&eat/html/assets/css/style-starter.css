@@ -189,6 +189,8 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color; }
 
+
+  
 input,
 button,
 select,
@@ -11892,6 +11894,7 @@ a.author-name {
 
 .w3l-contact-7 .contacts-sub-9 address a {
   display: block; }
+
 
 @media (max-width: 992px) {
   .w3l-contact-7 .top-map {
