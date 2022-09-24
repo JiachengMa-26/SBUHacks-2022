@@ -6,7 +6,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	background: linear-gradient(to bottom, #FFF5E4, #FFE3E1, #FFD1D1);
 }
 .main{
 	width: 350px;
@@ -26,7 +26,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #fff;
+	color: #383838;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -54,7 +54,7 @@ button{
 	justify-content: center;
 	display: block;
 	color: #fff;
-	background: #573b8a;
+	background: #FF9494;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -65,17 +65,17 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #6d44b8;
+	background: #FFD1D1;
 }
 .login{
 	height: 460px;
-	background: #eee;
+	background: #FFD1D1;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
 }
 .login label{
-	color: #573b8a;
+	color: #383838;
 	transform: scale(.6);
 }
 
