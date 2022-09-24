@@ -1,0 +1,441 @@
+
+/* h1 h2 h3{
+
+} */
+
+/* .title.image{
+
+} */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #FF5959;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montez-bold', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montez', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #FFF1BD;
+  font-family: 'Pacifico-bold', cursive;
+  font-size: 3rem;
+}
+
+p {
+  font-family: 'Yellowtail', cursive;
+  color: #FFF8F3;
+  font-size: 1.2rem;
+}
+
+em {
+  font-family: 'Montez-bold', cursive;
+  color: #FFF8F3;
+  font-size: 1.2rem;
+}
+
+.firstLine {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: relative;
+  right: 200px;
+  color: white;
+  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Nav-item {
+  right: 200px;
+  color: #fff;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 25% 3% 5% 0;
+}
+
+/* Title Image */
+.ti {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .ti {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+  .dd {
+    position: static;
+    width: 60%;
+  }
+}
+
+.search_button {
+  background-color: #fff;
+  /*  */
+  border: none;
+  color: black;
+}
+
+.df {
+  text-align: center;
+}
+
+#features {
+  padding: 7% 15% text-align: center;
+  position: relative;
+}
+
+.srow {
+  padding: 7% 15%;
+  background-color: #676FA3;
+}
+
+.dog2 {
+  width: 10%;
+}
+
+.feature-box {}
+
+.icon {
+  color: #CDDEFF;
+}
+
+.icon:hover {
+  color: #FF5959;
+}
+
+#testimonials {
+  /* padding:7% 15%; */
+  text-align: center;
+  background-color: #CDDEFF;
+  color: #fff;
+}
+
+.timage {
+  width: 13%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #CDDEFF;
+  text-align: center;
+  padding: 3%;
+}
+
+.plogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  text-align: center;
+}
+
+/*
+.cg{
+  background-color: #EEF2FF;
+  text-align: center;
+  width: 70%;
+} */
+/* =============================================PRICE TABLE================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2e2a2a;
+  color: #FFF;
+  font-size: 62.5%;
+  font-family: 'Roboto', Arial, Helvetica, Sans-serif, Verdana;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #e95846;
+  text-decoration: none;
+}
+
+.pricing-table-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.6em;
+  color: #FFF;
+  margin-top: 15px;
+  text-align: left;
+  margin-bottom: 25px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table-title a {
+  font-size: 0.6em;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  clear: both;
+}
+
+/** ========================
+ * Contenedor
+ ============================*/
+.pricing-wrapper {
+  width: 960px;
+  margin: 40px auto 0;
+}
+
+.pricing-table {
+  margin: 0 10px;
+  text-align: center;
+  width: 300px;
+  float: left;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.pricing-table:hover {
+  -webkit-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+}
+
+.pricing-title {
+  color: #FFF;
+  background: #e95846;
+  padding: 20px 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table.recommended .pricing-title {
+  background: #2db3cb;
+}
+
+.pricing-table.recommended .pricing-action {
+  background: #2db3cb;
+}
+
+.pricing-table .price {
+  background: #403e3d;
+  font-size: 3.4em;
+  font-weight: 700;
+  padding: 20px 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.pricing-table .price sup {
+  font-size: 0.4em;
+  position: relative;
+  left: 5px;
+}
+
+.table-list {
+  background: #FFF;
+  color: #403d3a;
+}
+
+.table-list li {
+  font-size: 1.4em;
+  font-weight: 700;
+  padding: 12px 8px;
+}
+
+.table-list li:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  color: #3fab91;
+  display: inline-block;
+  position: relative;
+  right: 5px;
+  font-size: 16px;
+}
+
+.table-list li span {
+  font-weight: 400;
+}
+
+.table-list li span.unlimited {
+  color: #FFF;
+  background: #e95846;
+  font-size: 0.9em;
+  padding: 5px 7px;
+  display: inline-block;
+  -webkit-border-radius: 38px;
+  -moz-border-radius: 38px;
+  border-radius: 38px;
+}
+
+.table-list li:nth-child(2n) {
+  background: #F0F0F0;
+}
+
+.table-buy {
+  background: #FFF;
+  padding: 15px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.table-buy p {
+  float: left;
+  color: #37353a;
+  font-weight: 700;
+  font-size: 2.4em;
+}
+
+.table-buy p sup {
+  font-size: 0.5em;
+  position: relative;
+  left: 5px;
+}
+
+.table-buy .pricing-action {
+  float: right;
+  color: #FFF;
+  background: #e95846;
+  padding: 10px 16px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 1.4em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.table-buy .pricing-action:hover {
+  background: #cf4f3e;
+}
+
+.recommended .table-buy .pricing-action:hover {
+  background: #228799;
+}
+
+/** ================
+ * Responsive
+ ===================*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  .pricing-wrapper {
+    width: 768px;
+  }
+
+  .pricing-table {
+    width: 236px;
+  }
+
+  .table-list li {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pricing-wrapper {
+    width: 420px;
+  }
+
+  .pricing-table {
+    display: block;
+    float: none;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .pricing-wrapper {
+    width: 300px;
+  }
+}
+
+/* =============================================PRICE TABLE================================================ */
+#cta {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.dd {
+  border-radius: 20%;
+  margin: 5%
+}
+
+.download-button {
+  margin: 10%
+}
+
+#footer {
+  padding-top: 15%;
+}
+
+#ft {
+  font-family: serif;
+  text-align: center;
+}
+
+.ss {
+  text-align: center;
+}
+
+
+#toolbar{
+  width:100px;
+}
