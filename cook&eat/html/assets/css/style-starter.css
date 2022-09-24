@@ -11983,3 +11983,7 @@ a.author-name {
   width:800px;
   margin:auto;
 }
+.content-strech{
+  overflow: scroll;
+
+}

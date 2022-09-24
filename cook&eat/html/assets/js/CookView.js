@@ -8,6 +8,21 @@ export default class CookModel {
     setModel(initModel){
         this.model=initModel;
     }
-    
+    addEentHandlerForView(i){
+        let table=document.getElementById("table-"+i);
+        let 
+    }
+    viewinit(){
+        this.addEventHandlerForAddButon();
+    }
+    addEventHandlerForAddButon(){
+        document.getElementById("newForumCook").onmousedown = (event) => {
+            
+        }
+    }
+    addEventListenerForforum(table){
+        let name_of_forum=table;
+        name_of_forum.add
+    }
 
 }

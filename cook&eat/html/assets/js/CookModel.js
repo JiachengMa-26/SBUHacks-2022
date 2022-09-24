@@ -25,12 +25,15 @@ export default class CookModel {
             let content=document.createElement("div");
             content.classList.add("content_box");
             content.id="content-"+i;
+            content.innerHTML=type[i].content;
             let user=document.createElement("div");
             user.id="user-"+i;
             user.classList.add("user-name");
+            user.innerHTML=type[i].user;
             let title=document.createElement("div");
             title.id="title-"+i;
             title.classList.add("chat-title");
+            title.innerHTML=type[i].title;
             new_forum_chat.append(header);
             new_forum_chat.append(content);
             new_forum_chat.append(user);
