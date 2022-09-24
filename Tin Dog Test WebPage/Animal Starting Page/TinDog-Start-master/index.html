@@ -23,67 +23,34 @@
 
 <body>
 
-  <section id="title">
-    <div class="container-fluid">
-
+  <section class="title">
+    <!--I delete the class="container-fluid" at the following div-->
+    <div class="header-session">
       <!-- Nav Bar -->
-
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" style="color:white" > <img src="images/IconForMainScreen.png" alt="Icon for main Screen" width="200" height="300"> </a>
+          <a class="navbar-brand" style="color:white" href="#"> <img src="images/IconForMainScreen.png" alt="button for returning to main screen" width="100" height="100"> </a>
+          <h1>Taster</h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="Nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-
-            </ul>
+          <div class="navbarSupportedContent">
             <form class="d-flex">
-              <input class="form-control me-2 search_button" id="toolbar" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2 search_button toolbar" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-
-
-      <!-- Title -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h1 class="firstLine">Meet new and interesting dogs nearby.</h1>
-          <h1>🐶 💌</h1>
-          <button type="button" class="btn btn-dark btn-outline-light btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-#FF5959 btn-outline-light btn-lg download-button"><i class="fab fa-windows"></i> Download</button>
-        </div>
-
-        <div class="col-lg-6">
-          <img class="ti" src="images/iphone6.png" alt="iphone-mockup">
-        </div>
-
-
-      </div>
-
+  </section>
+  
+  <section>
+    <h2 style="text-align:center">Start Your Journey by Choosing What You Want For Today</h2>
+     <!--button session -->
+     <div class="row button-session">
+        <button type="button" class="btn btn-#FF5959 btn-outline-light btn-lg download-button"> Eat</button>
+        <button type="button" class="btn btn-#FF5959 btn-outline-light btn-lg download-button"> Cook</button>
     </div>
-
   </section>
 
 
@@ -101,19 +68,19 @@
           <i class="icon fas fa-child fa-6x"></i>
           <!-- <img class = "dog2" src="images/dog2.png" alt="dog-img"> -->
           <h3>Easy to use.</h3>
-          <p>So easy to use, even your dog could do it.</p>
+          <p>So easy to use, everyone can use it.</p>
         </div>
 
         <div class="feature-box col-lg-4">
           <i class="icon fas fa-check-circle fa-6x"></i>
           <h3>Elite Clientele</h3>
-          <p>We have all the dogs, the greatest dogs.</p>
+          <p>We have all the food, the greatest food.</p>
         </div>
 
         <div class="feature-box col-lg-4">
           <i class="icon fas fa-paw fa-6x"></i>
           <h3>Guaranteed to work.</h3>
-          <p>Find the love of your dog's life or your money back.</p>
+          <p>Find the love of your food.</p>
         </div>
 
 
@@ -224,8 +191,7 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your 🐶's Life Today.</h3>
-    <img class="dd" src="images/dd.jpg" alt="dd-img">
+    <h3>Find or Be the True Gourment of Your Life Today.</h3>
     <br>
     <button type="button" class="btn btn-dark btn-outline-light btn-lg download-button2"><i class="fab fa-apple"></i> Download</button>
     <button type="button" class="btn btn-#FF5959 btn-outline-light btn-lg download-button2"><i class="fab fa-windows"></i> Download</button>

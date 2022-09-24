@@ -6,7 +6,7 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #FFF5E4, #FFE3E1, #FFD1D1);
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 .main{
 	width: 350px;
@@ -26,7 +26,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #100720;
+	color: #fff;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -53,8 +53,8 @@ button{
 	margin: 10px auto;
 	justify-content: center;
 	display: block;
-	color: #FFF5E4;
-	background: #FFD1D1;
+	color: #fff;
+	background: #573b8a;
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -65,17 +65,17 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #FF9494;
+	background: #6d44b8;
 }
 .login{
 	height: 460px;
-	background: #FFE3E1;
+	background: #eee;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
 	transition: .8s ease-in-out;
 }
 .login label{
-	color: #100720;
+	color: #573b8a;
 	transform: scale(.6);
 }
 
@@ -88,3 +88,5 @@ button:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
+

@@ -11,7 +11,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#title {
+.title {
   background-color: #FF5959;
   color: #fff;
 }
@@ -86,6 +86,7 @@ em {
 /* Download Buttons */
 .download-button {
   margin: 25% 3% 5% 0;
+  width:300px;
 }
 
 /* Title Image */
@@ -436,6 +437,20 @@ a {
 }
 
 
-#toolbar{
+
+
+.toolbar{
   width:100px;
+}
+
+.navbarSupportedContent{
+  float:right;
+}
+.header-session{
+  height:150px;
+
+}
+.button-session{
+  display: flex;
+  justify-content: center;
 }
