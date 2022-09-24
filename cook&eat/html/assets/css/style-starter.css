@@ -9560,7 +9560,7 @@ a.text-dark:hover, a.text-dark:focus {
   --iframe-filter: grayscale(0%);
   --bg-light: rgba(130, 115, 252, .05);
   --bg-grey: #f7f7f7;
-  --card-bg: #fff; }
+  --card-bg: #f7f7f7; }
 
 [data-theme="dark"] {
   --primary-color: #FFEF82;
